@@ -28,3 +28,8 @@ spring:
 logging:
   level:
     ssyoni.jwt: DEBUG
+
+jwt:
+  header: Authorization
+  secret: c3N5b25pLWp3dC1zcHJpbmctYm9vdC10dXRvcmlhbC1zdHVkeS13aXRoLWluZmxlYXJuLWZvci1zaWRlLXByb2plY3QtcGV0LWZyaWVuZHMK
+  token-validity-in-seconds: 86400
